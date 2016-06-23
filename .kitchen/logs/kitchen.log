@@ -1,29 +1,29 @@
-I, [2016-06-23T12:58:27.493187 #7363]  INFO -- Kitchen: -----> Starting Kitchen (v1.5.0)
-E, [2016-06-23T12:58:27.494394 #7363] ERROR -- Kitchen: ------Exception-------
-E, [2016-06-23T12:58:27.494463 #7363] ERROR -- Kitchen: Class: Kitchen::UserError
-E, [2016-06-23T12:58:27.494514 #7363] ERROR -- Kitchen: Message: Kitchen YAML file /home/chef/cookbooks/.kitchen.yml does not exist.
-E, [2016-06-23T12:58:27.494725 #7363] ERROR -- Kitchen: ------Backtrace-------
-E, [2016-06-23T12:58:27.494781 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/loader/yaml.rb:74:in `read'
-E, [2016-06-23T12:58:27.494829 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:149:in `data'
-E, [2016-06-23T12:58:27.494876 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:128:in `suites'
-E, [2016-06-23T12:58:27.494923 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:179:in `filter_instances'
-E, [2016-06-23T12:58:27.494970 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:138:in `build_instances'
-E, [2016-06-23T12:58:27.495017 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:114:in `instances'
-E, [2016-06-23T12:58:27.495063 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command.rb:115:in `filtered_instances'
-E, [2016-06-23T12:58:27.495120 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command.rb:145:in `parse_subcommand'
-E, [2016-06-23T12:58:27.495168 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command/test.rb:43:in `block in call'
-E, [2016-06-23T12:58:27.495214 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
-E, [2016-06-23T12:58:27.495260 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command/test.rb:41:in `call'
-E, [2016-06-23T12:58:27.495307 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:56:in `perform'
-E, [2016-06-23T12:58:27.495353 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:227:in `test'
-E, [2016-06-23T12:58:27.495399 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
-E, [2016-06-23T12:58:27.495445 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
-E, [2016-06-23T12:58:27.495505 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:321:in `invoke_task'
-E, [2016-06-23T12:58:27.495567 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
-E, [2016-06-23T12:58:27.495619 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
-E, [2016-06-23T12:58:27.495665 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/bin/kitchen:13:in `block in <top (required)>'
-E, [2016-06-23T12:58:27.495711 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/errors.rb:154:in `with_friendly_errors'
-E, [2016-06-23T12:58:27.495757 #7363] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/bin/kitchen:13:in `<top (required)>'
-E, [2016-06-23T12:58:27.495803 #7363] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:17:in `load'
-E, [2016-06-23T12:58:27.495848 #7363] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:17:in `<main>'
-E, [2016-06-23T12:58:27.495893 #7363] ERROR -- Kitchen: ----------------------
+I, [2016-06-23T13:51:08.974273 #9612]  INFO -- Kitchen: -----> Starting Kitchen (v1.5.0)
+E, [2016-06-23T13:51:08.975094 #9612] ERROR -- Kitchen: ------Exception-------
+E, [2016-06-23T13:51:08.975167 #9612] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2016-06-23T13:51:08.975221 #9612] ERROR -- Kitchen: Message: Kitchen YAML file /home/chef/cookbooks/.kitchen.yml does not exist.
+E, [2016-06-23T13:51:08.975271 #9612] ERROR -- Kitchen: ------Backtrace-------
+E, [2016-06-23T13:51:08.975319 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2016-06-23T13:51:08.975368 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:149:in `data'
+E, [2016-06-23T13:51:08.975428 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:128:in `suites'
+E, [2016-06-23T13:51:08.975477 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:179:in `filter_instances'
+E, [2016-06-23T13:51:08.975526 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:138:in `build_instances'
+E, [2016-06-23T13:51:08.975729 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:114:in `instances'
+E, [2016-06-23T13:51:08.975785 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2016-06-23T13:51:08.975835 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2016-06-23T13:51:08.975884 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command/test.rb:43:in `block in call'
+E, [2016-06-23T13:51:08.975932 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2016-06-23T13:51:08.975979 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command/test.rb:41:in `call'
+E, [2016-06-23T13:51:08.976049 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:56:in `perform'
+E, [2016-06-23T13:51:08.976099 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:227:in `test'
+E, [2016-06-23T13:51:08.976147 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2016-06-23T13:51:08.976196 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2016-06-23T13:51:08.976244 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:321:in `invoke_task'
+E, [2016-06-23T13:51:08.976291 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2016-06-23T13:51:08.976339 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2016-06-23T13:51:08.976415 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2016-06-23T13:51:08.976464 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2016-06-23T13:51:08.976512 #9612] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/bin/kitchen:13:in `<top (required)>'
+E, [2016-06-23T13:51:08.976581 #9612] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:17:in `load'
+E, [2016-06-23T13:51:08.976633 #9612] ERROR -- Kitchen: /opt/chefdk/bin/kitchen:17:in `<main>'
+E, [2016-06-23T13:51:08.976683 #9612] ERROR -- Kitchen: ----------------------
